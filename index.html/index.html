@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Assistant</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="glass-card">
+
+     
+
+        <div class="header">
+
+            <div class="profile">
+
+                <div class="main-avatar">
+                    🤖
+                </div>
+
+                <div>
+                    <h1>Smart Assistant</h1>
+                    
+                </div>
+
+            </div>
+
+            <i class="fa-solid fa-ellipsis-vertical menu"></i>
+
+        </div>
+
+        
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="bot-row">
+
+                <div class="avatar">🤖</div>
+
+                <div class="bot-message">
+
+                    <h3>Hello! 👋</h3>
+
+                    <p>How can I help you today?</p>
+
+                    <span>11:30 AM</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="input-area">
+
+            <input
+            type="text"
+            id="userInput"
+            placeholder="Type your question...">
+
+            <button onclick="sendMessage()">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
